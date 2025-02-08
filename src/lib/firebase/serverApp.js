@@ -25,3 +25,4 @@ export async function getAuthenticatedAppForUser() {
 
   return { firebaseServerApp, currentUser: auth.currentUser };
 }
+
