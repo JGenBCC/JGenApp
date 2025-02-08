@@ -1,17 +1,19 @@
 env:
   # Set this with firebase apphosting:secrets:set
-  - variable: GEMINI_API_KEY
-    secret: gemini-api-key
+  #- variable: GEMINI_API_KEY
+    #secret: gemini-api-key
   # Get these values from the Firebase console
   - variable: NEXT_PUBLIC_FIREBASE_API_KEY
-    value: TODO
+    value: AIzaSyCn9AcO1M5wrxXB9-XLoFYIHXaDuTcFyV0
   - variable: NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN
-    value: TODO
+    value: jgen-app.firebaseapp.com
   - variable: NEXT_PUBLIC_FIREBASE_PROJECT_ID
-    value: TODO
+    value: jgen-app
   - variable: NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET
-    value: TODO
+    value: jgen-app.firebasestorage.app
   - variable: NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID
-    value: TODO
+    value: 938941795510
   - variable: NEXT_PUBLIC_FIREBASE_APP_ID
-    value: TODO
+    value: 1:938941795510:web:b74a68fa57ddd3c079aa17
+  - variable: NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID
+    value: G-0SBX1KBSW5
