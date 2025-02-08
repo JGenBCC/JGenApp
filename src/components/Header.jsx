@@ -67,7 +67,7 @@ export default function Header({initialUser}) {
 	};
 
 	return (
-		<header>
+			<header className="light-theme">
 			<Link href="/" className="logo">
 				<img src="/friendly-eats.svg" alt="FriendlyEats" />
 				Friendly Eats
@@ -112,3 +112,4 @@ export default function Header({initialUser}) {
 		</header>
 	);
 }
+
